@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnair Form</title>
+    <link rel="stylesheet" href="qeustionnaire.css">
+</head>
+<body>
+<!-- questionnarie section starts -->
+    
+
+    <div class="audio-info">
+        <!-- 动态显示音频信息 -->
+    </div>
+
+<section class="backgroud-question">
+<div class="questionnaire-box">
+    <header class="header">
+        <h1 id="title">
+            Survey from Acoustic
+        </h1>
+        <p id="description">
+            Thank you for taking the time to help us to improve the plateform
+        </p>
+    </header>
+
+    <form id="survey-form">
+        <!-- text section -->
+        <div class="form-group">
+            <div class="radio-options">
+            <p class="question">您对于样本声音烦恼度的评价</p>
+            <label><input type="radio" name="annoyance" value="非常严重" required>非常严重</label>
+            <label><input type="radio" name="annoyance" value="严重" required>严重</label>
+            <label><input type="radio" name="annoyance" value="一般" required>一般</label>
+            <label><input type="radio" name="annoyance" value="轻微" required>轻微</label>
+            <label><input type="radio" name="annoyance" value="一点没有" required>一点没有</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="radio-options">
+            <p class="question">您对于样本声音响度的评价</p>
+            <label><input type="radio" name="loudness" value="非常吵闹" required>非常吵闹</label>
+            <label><input type="radio" name="loudness" value="吵闹" required>吵闹</label>
+            <label><input type="radio" name="loudness" value="一般" required>一般</label>
+            <label><input type="radio" name="loudness" value="安静" required>安静</label>
+            <label><input type="radio" name="loudness" value="非常安静" required>非常安静</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="radio-options">
+            <p class="question">您对于样本声环境舒适度的评价</p>
+            <label><input type="radio" name="comfort" value="非常不舒服" required>非常不舒服</label>
+            <label><input type="radio" name="comfort" value="不舒服" required>不舒服</label>
+            <label><input type="radio" name="comfort" value="一般" required>一般</label>
+            <label><input type="radio" name="comfort" value="舒服" required>舒服</label>
+            <label><input type="radio" name="comfort" value="非常舒服" required>非常舒服</label>
+            </div>
+        </div>
+
+
+            <p class="question">您认为如何描述实测样本中的声环境</p>
+            <div class="container-table">
+                <table class="table">
+                    <tr class="row-side">
+                        <td></td>
+                        <td>完全不同意</td>
+                        <td>不同意</td>
+                        <td>中立</td>
+                        <td>同意</td>
+                        <td>完全同意</td>
+                    </tr>
+
+                    <tr>
+                        <th></th>
+                        <td>-2</td>
+                        <td>-1</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>2</td>
+                    </tr>
+
+                    <tr>
+                        <div class="radio-options">
+                        <th>愉快的</th>
+                        <td><input type="radio" name="愉快的" value="-2" required></td>
+                        <td><input type="radio" name="愉快的" value="-1"required></td>
+                        <td><input type="radio" name="愉快的" value="0"required></td>
+                        <td><input type="radio" name="愉快的" value="1"required></td>
+                        <td><input type="radio" name="愉快的" value="2"required></td>
+                        </div>
+                    </tr>
+
+
+                    <tr>
+                        <div class="radio-options">
+                        <th>多事件感的</th>
+                        <td><input type="radio" name="多事件感的" value="-2" required></td>
+                        <td><input type="radio" name="多事件感的" value="-1" required></td>
+                        <td><input type="radio" name="多事件感的" value="0" required></td>
+                        <td><input type="radio" name="多事件感的" value="1" required></td>
+                        <td><input type="radio" name="多事件感的" value="2" required></td>
+                        </div>
+                    </tr>
+
+                    <tr>
+                        <div class="radio-options">
+                        <th>平静的</th>
+                        <td><input type="radio" name="平静的" value="-2"required></td>
+                        <td><input type="radio" name="平静的" value="-1"required></td>
+                        <td><input type="radio" name="平静的" value="0"required></td>
+                        <td><input type="radio" name="平静的" value="1"required></td>
+                        <td><input type="radio" name="平静的" value="2"required></td>
+                        </div>
+                    </tr>
+
+                    <tr>
+                        <div class="radio-options">
+                        <th>充满活力的</th>
+                        <td><input type="radio" name="充满活力的" value="-2"required></td>
+                        <td><input type="radio" name="充满活力的" value="-1"required></td>
+                        <td><input type="radio" name="充满活力的" value="0"required></td>
+                        <td><input type="radio" name="充满活力的" value="1"required></td>
+                        <td><input type="radio" name="充满活力的" value="2"required></td>
+                        </div>
+                    </tr>
+
+                    <tr>
+                        <div class="radio-options">
+                        <th>混乱的</th>
+                        <td><input type="radio" name="混乱的" value="-2"required></td>
+                        <td><input type="radio" name="混乱的" value="-1"required></td>
+                        <td><input type="radio" name="混乱的" value="0"required></td>
+                        <td><input type="radio" name="混乱的" value="1"required></td>
+                        <td><input type="radio" name="混乱的" value="2"required></td>
+                        </div>
+                    </tr>
+
+                    <tr>
+                        <div class="radio-options">
+                        <th>无事件感的</th>
+                        <td><input type="radio" name="无事件感的" value="-2"required></td>
+                        <td><input type="radio" name="无事件感的" value="-1"required></td>
+                        <td><input type="radio" name="无事件感的" value="0"required></td>
+                        <td><input type="radio" name="无事件感的" value="1"required></td>
+                        <td><input type="radio" name="无事件感的" value="2"required></td>
+                        </div>
+                    </tr>
+
+                    <tr>
+                        <div class="radio-options">
+                        <th>烦恼的</th>
+                        <td><input type="radio" name="烦恼的" value="-2"required></td>
+                        <td><input type="radio" name="烦恼的" value="-1"required></td>
+                        <td><input type="radio" name="烦恼的" value="0"required></td>
+                        <td><input type="radio" name="烦恼的" value="1"required></td>
+                        <td><input type="radio" name="烦恼的" value="2"required></td>
+                        </div>
+                    </tr>
+
+                    <tr>
+                        <div class="radio-options">
+                        <th>单调的</th>
+                        <td><input type="radio" name="单调的" value="-2"required></td>
+                        <td><input type="radio" name="单调的" value="-1"required></td>
+                        <td><input type="radio" name="单调的" value="0"required></td>
+                        <td><input type="radio" name="单调的" value="1"required></td>
+                        <td><input type="radio" name="单调的" value="2"required></td>
+                        </div>
+                    </tr>
+                </table>
+                </div>
+                
+
+                <button class="btn-04" type="submit">submit</button>
+
+            
+            </form>
+        </div>
+</section>
+
+   
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="questionnaire.js"></script>
+
+
+
+
+
+
+</body>
+</html>
